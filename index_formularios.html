@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Leomary Perez</title>
+</head>
+<body>
+    <form action="radiobuttons">
+        <fieldset class="idioma">
+            <legend>Escoge tu idioma</legend>
+            <label><input class="idiomainput" type="radio" name="idioma">Inglés</label>
+            <label><input class="idiomainput" type="radio" name="idioma">Alemán</label>
+            <label><input class="idiomainput" type="radio" name="idioma">Francés</label>
+        </fieldset>
+        <fieldset class="conector">
+            <legend>Conector</legend>
+            <select class="conector" name="conector" >
+            <option value="USB">USB</option>
+            <option value="paralelo">PARALELO</option>
+            <option value="ps2"> PS2</option>
+            </select>
+        </fieldset>
+        <fieldset class="texto">
+            <legend>Ingresa tu nombre</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="Nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="Apellido">
+        </fieldset>
+        <fieldset class="sexo">
+            <legend>Tipo de sexo</legend>
+            <select class="sexo_selec" name="sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+        </fieldset>
+        <fieldset class="fecha">
+            <legend>Fecha de nacimiento</legend>
+            <input type="date" name="fecha" value="29-9-2022">
+        </fieldset>
+            <button class="enviar" type="submit" onClick="alert('Formulario Enviado')">Enviar</button>
+        </fieldset> 
+    
+    </form>
+</body>
+</html>

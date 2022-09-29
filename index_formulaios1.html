@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Leomary Perez</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+        <legend>Sube un archivo</legend>
+            <input type="date">
+            <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>Procesador</legend>
+                <label><input type="radio" name="procesador" value="procesadorramd"> AMD</label>
+                <label><input type="radio" name="procesador" value="procesadorintel_i5"> Intel i5</label>
+                <label><input type="radio" name="procesador" value="procesadorintel_i7"> Intel i7</label>
+        </fieldset>
+        <fieldset>
+            <legend>Agrega tus datos</legend>
+                <label>Nombre:<input type="text" name="nombre"></label>
+                <label>Apellido:<input type="text" name="apellido"></label>
+                <label>Direccion:<input type="text" name="Direccion"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Escoge un color de preferencia</legend>
+                <label>Añade color: <input type="color"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Agrega tu descripcion</legend>
+                <textarea name="" id="" cols="59" rows="6" placeholder="Utilice este cuadro para escribir"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>fecha</legend>
+                <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>¿Que idioma hablas?</legend>
+                <select name="idioma">
+                    <option value="Inglés">Inglés</option>
+                    <option value="Alemán">Alemán</option>
+                    <option value="Francés">Francés</option>
+                </select>
+        </fieldset>
+        <fieldset>
+            <legend>Hora</legend>
+                <input type="time">
+        </fieldset>
+        <fieldset>
+            <legend>Agrega una foto de perfil</legend>
+                <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>preferencia sexual</legend>
+                <label><input type="checkbox" value="sexomujer">Mujer</label>
+                <label><input type="checkbox" value="sexohombre">Hombre</label>
+        </fieldset>
+
+        <button class="enviar" type="submit" onClick="alert('Formulario Enviado')">Enviar</button>
+    </form>
+</body>
+</html>
